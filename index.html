@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>🎉 Happy Birthday, My Sayangg Putri 🎉</h1>
+  <p class="message">
+  May the year ahead be kind to you,<br>
+  and may you always feel how loved you are ❤️
+</p>
+
+
+    <button onclick="revealGift()">🎁 Open Gift</button>
+
+    <div id="gift" class="hidden">
+ <p>💌 To my beloved sweetheart, always know that I am:</p>
+<ul class="perks">
+  <li>🤍 A place where you are always cared for</li>
+  <li>🌸 Someone who chooses you, every single day</li>
+  <li>🎂 Someone who knows you are special, not just today, but every day</li>
+</ul>
+    </div>
+  </div>
+
+  <script>
+    function revealGift() {
+      document.getElementById("gift").classList.remove("hidden");
+    }
+  </script>
+
+</body>
+</html>
